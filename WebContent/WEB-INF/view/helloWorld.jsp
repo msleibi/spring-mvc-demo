@@ -5,6 +5,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css"
+href= "${pageContext.request.contextPath}/resources/css/style.css" /> 
+
 </head>
 <body>
 
@@ -15,6 +19,10 @@ Hello in Spring World !
 <h2>
 Welcome to Spring: ${param.studentName}
 </h2>
+
+<br> <br>
+
+The message: ${message}	
 
 </body>
 </html>
