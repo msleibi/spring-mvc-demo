@@ -18,7 +18,7 @@ href= "${pageContext.request.contextPath}/resources/css/style.css" />
 
 
 <hr>
-<a href="showForm"> Go to show form </a>
+<a href="hello/showForm"> Go to show form </a>
 
 
 

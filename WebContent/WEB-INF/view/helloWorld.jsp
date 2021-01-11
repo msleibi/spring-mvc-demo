@@ -17,12 +17,19 @@ Hello in Spring World !
 </h1>
 
 <h2>
-Welcome to Spring: ${param.studentName}
+Student names: ${param.studentName}
 </h2>
 
 <br> <br>
 
 The message: ${message}	
+
+<hr>
+<a href="/spring-mvc-demo"> Home page</a> 
+
+<br><br>
+
+<a href="/spring-mvc-demo/hello/showForm"> Back to hello world form </a>
 
 </body>
 </html>
