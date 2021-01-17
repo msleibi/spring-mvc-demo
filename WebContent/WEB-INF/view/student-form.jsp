@@ -23,6 +23,30 @@ Last name: <form:input path="lastName" ></form:input>
 
 <br> <br>
 
+<!-- 
+Country: <form:select path="country">
+<form:option value="Germany" label="Germany" />
+<form:option value="Brazil" label="Brazil" />
+<form:option value="France" label="France" />
+<form:option value="United States" label="USA" />
+<form:option value="United Kindom" label="UK" />
+</form:select>
+ -->
+ 
+ <!--  or we will load them from the backend in Student class
+ Country: <form:select path="country">
+ <form:options items="${student.countryOptions}" />
+ </form:select>
+ -->
+ 
+ <!--  or loading the country options from properties file -->
+  Country: <form:select path="country">
+ <form:options items="${theCountryOptions}" />
+ </form:select>
+
+
+<br> <br>
+
 <input type="submit" value="Submit" />
 
 </form:form>

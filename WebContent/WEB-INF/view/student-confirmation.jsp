@@ -12,6 +12,7 @@ href= "${pageContext.request.contextPath}/resources/css/style.css" />
 <body>
 
 Welcome Student: <h2> ${student.firstName}  ${student.lastName} </h2>
+Country: <h2> ${student.country} </h2>
 
 <hr>
 <a href="/spring-mvc-demo"> Home page</a> 
