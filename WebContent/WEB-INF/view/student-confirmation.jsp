@@ -4,25 +4,21 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
 <link rel="stylesheet" type="text/css"
 href= "${pageContext.request.contextPath}/resources/css/style.css" /> 
 
+<title>Show Student data</title>
 </head>
 <body>
 
-<h2> Spring MVC Demo - Home Page</h2>
-
-<img src="${pageContext.request.contextPath}/resources/img/spring-mvc-logo.png" /> 
-
+Welcome Student: <h2> ${student.firstName}  ${student.lastName} </h2>
 
 <hr>
-<a href="hello/showForm"> Go to show form </a>
-<br> <br>
-<a href="student/showForm"> Student form </a>
+<a href="/spring-mvc-demo"> Home page</a> 
 
+<br><br>
 
+<a href="/spring-mvc-demo/student/showForm"> Back to Student form </a>
 
 </body>
 </html>
