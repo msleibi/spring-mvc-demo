@@ -43,7 +43,20 @@ Country: <form:select path="country">
   Country: <form:select path="country">
  <form:options items="${theCountryOptions}" />
  </form:select>
+ <br> <br>
 
+Favorite Programming language:
+ <br> <br>
+ <form:radiobutton path="favoriteLanguage" value="Java"/> Java
+ <form:radiobutton path="favoriteLanguage" value="Php"/>  PHP
+ <form:radiobutton path="favoriteLanguage" value="C#"/>   C#
+ <form:radiobutton path="favoriteLanguage" value="Ruby"/> Ruby
+
+<br> <br>
+Operating systems: 
+ <form:checkbox path="favoriteOperatingSys" value="Windows"/> Windows
+ <form:checkbox path="favoriteOperatingSys" value="Linux"/>   Linux
+ <form:checkbox path="favoriteOperatingSys" value="Mac"/>     Mac
 
 <br> <br>
 

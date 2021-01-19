@@ -40,7 +40,13 @@ public class StudentController {
 		System.out.println("The student: " + theStudent.getFirstName() + 
 				" " + theStudent.getLastName() + 
 				"\n" + 
-				"The country: " + theStudent.getCountry());
+				"The country: " + theStudent.getCountry() +
+				"\n" + 
+				"The favorite programming language: " + theStudent.getFavoriteLanguage());
+		
+		for (String opSystem : theStudent.getFavoriteOperatingSys()) {
+			System.out.print("The favorite operating system: " + opSystem + ", ");
+		}
 		
 		return "student-confirmation";
 	}
